@@ -1,0 +1,36 @@
+body {
+  height: 1000px;
+  width: 1000px;
+}
+
+.square:first-child {
+  background-color: red;
+}
+
+.square:nth-child(2) {
+  background-color: green;
+}
+
+.square:last-child {
+  background-color: orange;
+}
+
+@media (min-width: 1024px) {
+  .square {
+    width: 33%;
+    height: 33%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .square {
+    height: 50%;
+    width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  .square {
+    height: 100%;
+    width: 100%;
+  }
+}

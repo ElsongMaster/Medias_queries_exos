@@ -1,9 +1,11 @@
-.square {
-  height: 200px;
+body {
+  height: 1060px;
+  width: 1060px;
 }
 
 @media (min-width: 1024px) {
   .square {
+    height: 33%;
     width: 33%;
     background-color: blue;
   }
@@ -11,12 +13,14 @@
 
 @media (min-width: 600px) and (max-width: 1023px) {
   .square {
+    height: 66%;
     width: 66%;
     background-color: red;
   }
 }
 @media (min-width: 320px) and (max-width: 599px) {
   .square {
+    height: 100%;
     width: 100%;
     background-color: orange;
   }
