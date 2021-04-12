@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  body {
+    background-color: green;
+  }
+}
